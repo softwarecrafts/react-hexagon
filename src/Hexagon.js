@@ -168,6 +168,7 @@ Hexagon.propTypes = {
   backgroundHeight: number,
   backgroundScale: number,
   backgroundSize: number,
+  backgroundClasses: string,
   hexProps: object,
   style: object,
   children: node,

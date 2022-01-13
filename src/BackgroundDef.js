@@ -51,6 +51,7 @@ function BackgroundDef(props) {
           width={imgWidth}
           height={imgHeight}
           xlinkHref={props.backgroundImage}
+          className={props.backgroundClasses}
         />
       </pattern>
     </defs>
@@ -66,6 +67,7 @@ BackgroundDef.propTypes = {
   backgroundWidth: number,
   backgroundHeight: number,
   backgroundSize: number,
+  backgroundClasses: string,
   xOffset: number,
   yOffset: number,
   diagonal: number,
